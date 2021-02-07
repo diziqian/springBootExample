@@ -1,0 +1,51 @@
+package com.xxx.springboot.entity;
+
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.Setter;
+
+
+//@Builder
+//@NoArgsConstructor
+//@AllArgsConstructor
+@Getter
+@Setter
+public class Product {
+	private Integer id;
+	private String name;
+	private double price;
+	
+	public Product(Integer id, String name, double price){
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
+	
+	public void setProductId(Integer id){
+        this.id = id;
+    }
+	
+    public void setProductPrice(double price){
+        this.price = price;
+    }
+    
+    public void setProductName(String name){
+        this.name = name;
+    }
+    
+    public String getProductId(){
+        return id;
+    }
+    
+    public String getProductName(){
+        return name;
+    }
+    
+    public String getProductWord(){
+        return passwd;
+    }
+	
+	public String toString() {
+		return id.toString() + name.toString() + Double. toString(price);
+	}
+}

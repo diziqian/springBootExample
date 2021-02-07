@@ -1,0 +1,13 @@
+package com.xxx.springboot.service;
+
+import java.util.List;
+
+import com.xxx.springboot.entity.User;
+
+public interface IUserService {
+	public List<User> getAllUsers();
+
+    public int addUser(User user);
+
+    public int deleteUser(User user);
+}

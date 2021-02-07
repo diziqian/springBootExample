@@ -1,0 +1,12 @@
+package com.xxx.springboot.entity;
+
+@Getter
+public class Product {
+	private Integer id;
+	private String name;
+	private double price;
+	
+	public String toString() {
+		return id.toString() + name.toString() + Double. toString(price);
+	}
+}

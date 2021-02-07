@@ -1,0 +1,13 @@
+package com.xxx.springboot.dao;
+
+import java.util.List;
+
+import com.xxx.springboot.entity.Product;
+
+public interface ProductDao {
+	List<Product> list();
+	Product queryById(int id);
+	int add(Product product);
+	int update(Product product);
+	int delete(int id);
+}

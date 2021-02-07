@@ -1,0 +1,7 @@
+package com.xxx.springboot.service;
+
+import java.util.List;
+
+public interface IUserService {
+
+}

@@ -1,0 +1,5 @@
+package com.xxx.springboot.web;
+
+public class ProductController {
+
+}

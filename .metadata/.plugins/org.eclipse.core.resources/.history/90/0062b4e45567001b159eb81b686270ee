@@ -1,0 +1,20 @@
+package com.xxx.springboot.entity;
+
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.Setter;
+
+
+//@Builder
+//@NoArgsConstructor
+//@AllArgsConstructor
+@Getter
+public class Product {
+	private Integer id;
+	private String name;
+	private double price;
+	
+	public String toString() {
+		return id.toString() + name.toString() + Double. toString(price);
+	}
+}

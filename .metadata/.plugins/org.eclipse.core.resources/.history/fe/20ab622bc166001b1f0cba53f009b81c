@@ -1,0 +1,5 @@
+package com.xxx.springboot.dao;
+
+public class ProductDao {
+
+}
